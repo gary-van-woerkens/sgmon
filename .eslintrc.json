@@ -1,0 +1,87 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "globals": {
+    "Alert": false,
+    "args": false,
+    "Calendar": false,
+    "CalendarEvent": false,
+    "CallbackURL": false,
+    "Color": false,
+    "config": false,
+    "console": false,
+    "Contact": false,
+    "ContactsContainer": false,
+    "ContactsGroup": false,
+    "Data": false,
+    "DatePicker": false,
+    "Device": false,
+    "Dictation": false,
+    "DocumentPicker": false,
+    "DrawContext": false,
+    "FileManager": false,
+    "Font": false,
+    "Image": false,
+    "importModule": false,
+    "Keychain": false,
+    "ListWidget": false,
+    "Location": false,
+    "Mail": false,
+    "Message": false,
+    "module": false,
+    "Notification": false,
+    "Pasteboard": false,
+    "Path": false,
+    "Photos": false,
+    "Point": false,
+    "QuickLook": false,
+    "Rect": false,
+    "RecurrenceRule": false,
+    "Reminder": false,
+    "Request": false,
+    "Safari": false,
+    "Script": false,
+    "SFSymbol": false,
+    "ShareSheet": false,
+    "Size": false,
+    "Speech": false,
+    "UITable": false,
+    "UITableCell": false,
+    "UITableRow": false,
+    "URLScheme": false,
+    "UUID": false,
+    "WebView": false,
+    "XMLParser": false
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {},
+      { "usePrettierrc": true }
+    ],
+    "no-trailing-spaces": [
+      "error"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
