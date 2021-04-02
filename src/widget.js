@@ -7,13 +7,14 @@
 const sites = [
   { name: "www", url: "https://www.fabrique.social.gouv.fr/healthz" },
   { name: "emjpm", url: "https://emjpm.fabrique.social.gouv.fr" },
-  { name: "cdtn", url: "https://cdtn.fabrique.social.gouv.fr/healthz" },
+  { name: "cdtn", url: "https://code.travail.gouv.fr/health" },
+  { name: "cdtn-api", url: "https://cdtn-api.fabrique.social.gouv.fr/healthz" },
   { name: "standup", url: "https://standup.fabrique.social.gouv.fr/healthz" },
   {
     name: "carnets",
     url: "https://carnets.fabrique.social.gouv.fr/api/healthz",
   },
-  { name: "egapro", url: "https://egapro.fabrique.social.gouv.fr/healthz" },
+  { name: "egapro", url: "https://index-egapro.travail.gouv.fr/" },
   { name: "medle", url: "https://medle.fabrique.social.gouv.fr/api/healthz" },
   { name: "onvs", url: "https://onvs.fabrique.social.gouv.fr/api/healthz" },
   {
@@ -49,12 +50,8 @@ const sites = [
     url: "https://tumeplay.fabrique.social.gouv.fr/healthz",
   },
   {
-    name: "test 1",
-    url: "https://test1.fabrique.social.gouv.fr/healthz",
-  },
-  {
-    name: "test 2",
-    url: "https://test2.fabrique.social.gouv.fr/healthz",
+    name: "covid",
+    url: "https://covid.fabrique.social.gouv.fr/healthz",
   },
 ]
 
